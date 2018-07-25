@@ -1,0 +1,191 @@
+/*
+Author: Ryan
+*/
+body {
+    background-color: #fff;
+    color: #0f6eca;
+    width: 100%;
+    margin: 0px;
+    font-family: "Segoe UI","微軟正黑體",sans-serif;
+    text-align: center;
+}
+#menu{
+    position: relative;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+.btn-group{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu > button{
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #0f6eca;
+    color: #0f6eca;
+    margin: 0px 5px;
+    letter-spacing: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#menu > button.noboder{
+    border: 0px;
+}
+.btn-group>.btn {
+    position: relative;
+    float: left;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.btn:focus{
+    outline: 0;
+}
+#menu > button.btn-default.active, #menu > button.btn-default:active{
+    background-color: #0f6eca;
+    color: #fff
+}
+.mapbox{
+    position: relative;
+    margin-top: 10px;
+    min-height: 200px;
+    position: relative;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapbox h2{
+    text-align: center;
+    line-height: 200px;
+    background-color: #eee;
+}
+
+.mapbox .loand{
+    position: relative;
+    height: 300px;
+    line-height: 300px;
+}
+
+
+.mapbox .loand img{
+    height: 30px;
+}
+.hide{
+    display: none;
+}
+.map{
+    max-width: 700px;
+    width: 100%;
+}
+
+
+
+#refresh img{
+    width: 14px;
+    position: relative;
+    top: 2px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #3a4960;
+    text-align: center;
+    color: #fff;
+}
+footer p{
+
+    margin: 0px;
+    font-size: 12px;
+    padding: 5px 0px;
+    letter-spacing: 3px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    #menu > button{
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid #0f6eca;
+        color: #0f6eca;
+        margin: 0px 3px;
+        letter-spacing: 3px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .mapbox .loand{
+        text-align: center;
+        height: 300px;
+        line-height: 300px;
+    }
+}
+
+
+/*ul, menu, dir {*/
+    /*display: block;*/
+    /*list-style-type: disc;*/
+    /*-webkit-margin-before: 1em;*/
+    /*-webkit-margin-after: 1em;*/
+    /*-webkit-margin-start: 0px;*/
+    /*-webkit-margin-end: 0px;*/
+    /*-webkit-padding-start: 40px;*/
+/*}*/
+/*#Menu {*/
+    /*margin: 0px;*/
+    /*background-color: black;*/
+    /*border: 1px white solid;*/
+/*}*/
+/*#Menu ul {*/
+    /*width: 100%;*/
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+    /*height: 40px;*/
+/*}*/
+/*#Menu ul li {*/
+    /*display: list-item;*/
+    /*text-align: -webkit-match-parent;*/
+    /*float: left;*/
+    /*width: 25%;*/
+    /*text-align: center;*/
+    /*height: 40px;*/
+/*}*/
+/*#Menu ul li a {*/
+    /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*color: white;*/
+    /*background-color: black;*/
+    /*border-right: 2px solid white;*/
+    /*float: left;*/
+    /*padding: 8px;*/
+/*}*/
+
+/*.bg {*/
+    /*background-color: black;*/
+    /*width: 100%;*/
+
+/*}*/
+/*.menu {*/
+    /*height: 40px;*/
+    /*width: 100%;*/
+    /*border: 2px solid white;*/
+    /*border-radius: 10px;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.item {*/
+    /*width: 24%;*/
+    /*display: inline-block;*/
+    /*border-right: 1px solid white;*/
+/*}*/
